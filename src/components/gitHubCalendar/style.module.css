@@ -1,0 +1,28 @@
+.githubCalendarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  height: 100vh;
+}
+.monthNames {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 50px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.blockContainer {
+  border: 1px solid #ebedf0;
+  padding: 40px;
+}
+
+.githubCalendar {
+  display: grid;
+  grid-template-columns: repeat(52, 15px);
+  grid-template-rows: repeat(7, 15px);
+  gap: 1px;
+}
